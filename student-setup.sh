@@ -29,7 +29,7 @@ wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" 
 
 echo "🖼 Setting a Student Wallpaper..."
 mkdir -p ~/Pictures/Wallpapers
-cp ./wallpapers/student-wallpaper.jpg ~/Pictures/Wallpapers/student-wallpaper.jpg
-gsettings set org.cinnamon.desktop.background picture-uri "file://$HOME/Pictures/Wallpapers/student-wallpaper.jpg"
+cp ./wallpapers/student-wallpaper.png ~/Pictures/Wallpapers/student-wallpaper.png
+gsettings set org.cinnamon.desktop.background picture-uri "file://$HOME/Pictures/Wallpapers/student-wallpaper.png"
 
 echo "✅ All done! Your Linux Mint student environment is ready."
